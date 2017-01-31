@@ -1,0 +1,23 @@
+.flr {
+  float: right;
+}
+.fll {
+  float: left;
+}
+
+.jumbotron {
+  background: url('http://i.imgur.com/boE9bCU.jpg')
+}
+.jumbotron .container {
+  background-color: rgba(0,0,0,.5);
+  border-radius: 3px;
+  color: white;
+  padding: 15px;
+}
+.jumbotron .container p {
+  color: white;
+}
+
+.btn {
+  cursor: pointer;
+}
