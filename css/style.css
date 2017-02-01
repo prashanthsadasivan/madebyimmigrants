@@ -212,6 +212,9 @@ a {
 	.companies .company {
 		width: 50%;
 	}
+	.hide-on-mobile {
+		display: none;
+	}
 }
 @media only screen and (max-width:500px) {
 	.companies .company {
