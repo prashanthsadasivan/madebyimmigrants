@@ -135,6 +135,11 @@ a {
 	position: relative;
 }
 
+.companies .company:hover {
+	background-color: #445163;
+	cursor: pointer;
+}
+
 .companies .company img {
 	position: absolute;
 	top:50%;
