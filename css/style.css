@@ -147,7 +147,7 @@ a {
 	transform:translate(-50%, -50%);
 }
 
-.companies .company:active .companyInfo {
+.companies .company:hover .companyInfo {
 	display: block;
 }
 
@@ -297,10 +297,13 @@ a.donateButton:hover, a.submitButton:hover {
 	.hide-on-mobile {
 		display: none;
 	}
+	.companyInfo {
+		display: none !important;
+	}
 }
 @media only screen and (max-width:500px) {
 	.companies .company {
-		width: 100%;
+		width: 50%;
 	}
 }
 
