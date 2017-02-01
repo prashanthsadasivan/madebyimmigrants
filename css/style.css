@@ -116,6 +116,11 @@ a {
 
 .companies {
 	padding-bottom: 50px;
+	margin-bottom: 50px;
+}
+
+.clear {
+	clear:both;
 }
 
 .companies .company {
