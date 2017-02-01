@@ -179,6 +179,31 @@ a {
 .companyInfo:hover {
 	display: block;
 }
+.links {
+	text-align: center;
+}
+.companies a.submitButton, .companies a.donateButton {
+	display: inline-block;
+	margin-top: 30px;
+	color: #A389F4;
+	padding:10px 22px;
+	border:1px solid #A389F4;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+a.donateButton:hover, a.submitButton:hover {
+	background-color: rgba(255,255,255,0.05)
+}
+
+.companies a.donateButton {
+	color: #4990E2;
+	border:1px solid #4990E2;
+	margin-right: 15px;
+}
 
 .arrow {
 	position: absolute;
