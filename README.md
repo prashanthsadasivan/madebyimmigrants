@@ -15,4 +15,6 @@ PRs welcome for any improvements we can make technically
 #It's all tech startups and businesses...
 I can recognize when I live in a bubble, and these were the companies that stuck out to me. I want this to be more than just tech startups or businesses. If you know of other companies, projects, artists, or anyone who would want to be featured on this site, **please submit an [issue](https://github.com/prashanthsadasivan/madebyimmigrants/issues)!** It would be great to have examples showcasing all walks of life.
 
-
+#Shout-outs
+Recognizing the other folks who contributed
+* Nate Schulte (https://github.com/nateschulte)
