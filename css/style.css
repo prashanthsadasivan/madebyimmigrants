@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
+@import url(http://weloveiconfonts.com/api/?family=iconicstroke);
+
+/* iconicstroke */
+[class*="iconicstroke-"]:before {
+  font-family: 'IconicStroke', sans-serif;
+}
+
+/* GENERAL */
+
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Source Serif Pro', serif;
+	background-color: #3C4858;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width:1024px;
+	margin:auto;
+	padding:0 20px;
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+/* HERO */
+
+.hero {
+	width: 100%;
+	background: url("../img/bg.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding:40px 0;
+}
+
+.content {
+	padding:120px 0 80px 0;
+	font-size: 40px;
+	color:#222;
+	text-align: left;
+	max-width: 800px;
+}
+
+.content span {
+	font-size:18px;
+	color:#777;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style: italic;
+	display: block;
+	padding:15px 0;
+}
+
+/* Nav Bar */
+
+.nav {
+	width:100%;
+}
+
+.nav .logo {
+	float: left;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #3C4858;
+}
+
+.nav .logo:hover {
+	cursor: pointer;
+}
+
+.nav .logo:hover span {
+	color:red;
+}
+
+.nav .logo span {
+
+}
+
+.nav .actions {
+	float:right;
+}
+
+.nav .actions .donate {
+	color:#4990E2;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+.nav .actions .submit {
+	color:#7D76C2;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-size: 13px;
+	margin-left: 17px;
+}
+
+.nav .actions .donate:hover {
+	border-bottom: 2px solid #4990E2;
+}
+.nav .actions .submit:hover {
+	border-bottom: 2px solid #7D76C2;
+}
+
+
+.companies {
+	padding-bottom: 50px;
+}
+
+.companies .company {
+	width: 20%;
+	float: left;
+	min-height: 200px;
+	line-height: 200px;
+	text-align: center;
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	position: relative;
+}
+
+.companies .company img {
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform:translate(-50%, -50%);
+}
+
+.companies .company:hover .companyInfo {
+	display: block;
+}
+
+
+.companyInfo {
+	display: none;
+	background-color: #fff;
+	position: absolute;
+	top:-20px;
+	left: -20px;
+	right:-20px;
+	bottom:-20px;
+	text-align: left;
+	line-height: normal;
+	padding:30px;
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	z-index: 8;
+	-webkit-box-shadow: 2px 3px 20px -5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 2px 3px 20px -5px rgba(0,0,0,0.2);
+	box-shadow: 2px 3px 20px -5px rgba(0,0,0,0.2);
+	-webkit-animation: fadein 0.1s;
+       -moz-animation: fadein 0.1s;
+        -ms-animation: fadein 0.1s;
+         -o-animation: fadein 0.1s;
+            animation: fadein 0.1s;
+}
+.companyInfo:hover {
+	display: block;
+}
+
+.companyInfo .header {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #3C4858;
+	display: block;
+	margin-bottom: 7px;
+}
+
+.companyInfo .description {
+	font-family: 'Source Serif Pro', serif;
+	font-size: 15px;
+	color:#666;
+}
+
+.companyInfo .created {
+	color:#999;
+	font-size: 13px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style: italic;
+	display: block;
+	margin-top: 7px;
+}
+
+@media only screen and (max-width: 900px) {
+	.companies .company {
+		width: 25%;
+	}
+}
+
+@media only screen and (max-width:700px) {
+	.companies .company {
+		width: 33.33333333%;
+	}
+}
+
+@media only screen and (max-width:600px) {
+	.companies .company {
+		width: 50%;
+	}
+}
+@media only screen and (max-width:500px) {
+	.companies .company {
+		width: 100%;
+	}
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
