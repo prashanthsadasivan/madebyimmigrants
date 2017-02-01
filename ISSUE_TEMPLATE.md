@@ -4,7 +4,7 @@
 
 ## Short description to display on showcase card
 
-## Link to card image (please try to make it a square image!)
+## Link to vector image of company logo
 
 ## Number of jobs created (if applicable)
 
