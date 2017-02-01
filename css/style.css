@@ -146,7 +146,12 @@ a {
 	display: block;
 }
 
-
+.count {
+	width: 100%;
+	padding:50px 0 0 0;
+	text-align: center;
+	color:#DCE2E8;
+}
 .companyInfo {
 	display: none;
 	background-color: #fff;
