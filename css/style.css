@@ -142,7 +142,7 @@ a {
 	transform:translate(-50%, -50%);
 }
 
-.companies .company:hover .companyInfo {
+.companies .company:active .companyInfo {
 	display: block;
 }
 
