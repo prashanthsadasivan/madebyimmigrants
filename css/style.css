@@ -29,6 +29,63 @@ a {
 	-moz-box-sizing:border-box;
 }
 
+.formContainer {
+	max-width: 500px;
+	margin:auto;
+	padding:50px 0;
+}
+
+.formContainer input {
+	appearance:none;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	width: 100%;
+	border:0;
+	outline: 0;
+	background-color: #4F5D70;
+	padding:14px;
+	margin-bottom:10px;
+	font-size: 16px;
+	color:#fff;
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+.formContainer textarea {
+	appearance:none;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	width: 100%;
+	border:0;
+	outline: 0;
+	background-color: #4F5D70;
+	padding:14px;
+	margin-bottom:10px;
+	font-size: 16px;
+	color:#fff;
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+.formContainer h1 {
+	text-align: center;
+	color:#fff;
+	font-weight: 300;
+}
+.formContainer button {
+	display: inline-block;
+	margin-top: 30px;
+	color: #A389F4;
+	padding:10px 22px;
+	background-color: transparent;
+	border:1px solid #A389F4;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
 /* HERO */
 
 .hero {
