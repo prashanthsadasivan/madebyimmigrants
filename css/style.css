@@ -170,6 +170,14 @@ a {
 	display: block;
 }
 
+.arrow {
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+	color:#AEB8C2;
+	font-size:18px;
+}
+
 .companyInfo .header {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 700;
